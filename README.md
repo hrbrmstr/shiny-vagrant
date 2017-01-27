@@ -2,6 +2,8 @@ A Vagrant configuration and various other setup components to make it easier to 
 
 Testing from within RStudio is great but having a standalone environment you can tear down and build up again helps weed out dependencies you didn't know you needed and ensures the Shiny code runs on at least two platforms.
 
+I don't "do Shiny" for a living, so this whole type of thing may already exist and you may have better ways to do all or part of it. If this is totally duplicative work, def drop an issue so we can point folks to better resources. If you've got a better way to do anything here see the **Contributing** section and destroy at will.
+
 ### What's in the box?
 
 - `Vagrantfile` contains the [Vagrant](https://www.vagrantup.com/) config script. That means you need Vagrant installed and it's beyond the scope of this project to teach you how to do that since there are dozens of "how-to"'s for that. Out-of-the-box Vagrant uses [VirtualBox](https://www.virtualbox.org/wiki/VirtualBox) to orchestrate virtual machines. It's also beyond the scope of this project to teach you how to get VirtualBox up and running and there are also dozens of "how-to"'s for it as well. If you haven't worked both VirtualBox and Vagrant you need to pause now and play a bit with them to get a feel for what they do.
