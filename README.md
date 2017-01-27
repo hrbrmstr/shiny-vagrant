@@ -27,7 +27,7 @@ Out of the box (i.e. with no changes) you should be able to clone this repo, `cd
 ### Then what do I do?
 
 1. Customize `ui.R` and `server.R` in `apps/hello` and live-refresh them (no need to restart the VM)
-2. Addn an app and a button (make a copy of `hello` to play with how to do that). This is also live-refreshable
+2. Add an app and a button (make a copy of `hello` to play with how to do that). This is also live-refreshable
 3. Rip-and-replace `CustomSupportPkg` with your own and modify the scripts/apps accordingly, but then do item (4)
 4. Do `vagrant halt` and `vagrant up` to re-provison your custom package and restart the shiny server
 5. Break one of the apps and look at the logs in `logs/`
@@ -46,7 +46,9 @@ If you do run into problems, file an issue with sufficient detail to understand 
 
 ### Contributing
 
-TODO: Add a Code of Conduct document. Until then, be cool & kind and contribute as you'd like.
+Read the doc in the repo.
+
+Basically, be cool & kind and contribute as you'd like in that context.
 
 Some ideas:
 
@@ -57,5 +59,5 @@ Some ideas:
 - Create better documentation that what's in this "meh" README
 - Add a way to auto-determine current Shiny Server version and then automation to install/update that
 - Make prettier app launcher base `index.html` (though I'd like to keep a non-JS & minimal CSS framework)
-- Add VMware orchestration
+- Add VMware orchestration. VirtualBox is free but I like VMware Fusion VMs on macOS, so I'll prbly get to this soon.
 - Add "cloud" orchestration
