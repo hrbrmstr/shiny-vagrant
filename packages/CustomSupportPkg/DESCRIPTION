@@ -1,0 +1,14 @@
+Package: CustomSupportPkg
+Type: Package
+Title: An Example Shiny App Support Package
+Version: 0.1.0
+Date: 2017-01-27
+Author: You (you@example.com)
+Maintainer: You <you@example.com>
+Description: An Example Shiny App Support Package
+License: MIT
+Suggests:
+    testthat
+Depends:
+    R (>= 3.2.0)
+RoxygenNote: 5.0.1

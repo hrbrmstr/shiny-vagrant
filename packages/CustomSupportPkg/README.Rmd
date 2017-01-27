@@ -1,0 +1,41 @@
+---
+output: rmarkdown::github_document
+---
+
+`CustomSupportPkg` : ...
+
+The following functions are implemented:
+
+The following data sets are included:
+
+### Installation
+
+```{r eval=FALSE}
+devtools::install_git("https://gitlab.com/hrbrmstr/CustomSupportPkg.git")
+```
+
+```{r message=FALSE, warning=FALSE, error=FALSE}
+options(width=120)
+```
+
+### Usage
+
+```{r message=FALSE, warning=FALSE, error=FALSE}
+library(CustomSupportPkg)
+
+# current verison
+packageVersion("CustomSupportPkg")
+
+```
+
+### Test Results
+
+```{r message=FALSE, warning=FALSE, error=FALSE}
+library(CustomSupportPkg)
+library(testthat)
+
+date()
+
+test_dir("tests/")
+```
+
